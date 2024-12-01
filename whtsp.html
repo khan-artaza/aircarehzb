@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry Form</title>
+    <link rel="stylesheet" href="whtsp.css">
+</head>
+
+
+<body>  
+    <header>
+       
+           
+        <div id="navbar">
+                <a href="" class="navlogo"><img src="images/logo.png" alt="" id="logo"></a>
+
+                <ul>
+                <li><a style="text-decoration: none;" href="index.html">Home</a></li>
+                <li><a style="text-decoration: none;" href="service.html">Sales & Services</a></li>
+                <li><a style="text-decoration: none;" href="contact.html">Contact us</a></li>
+                <li><a style="text-decoration: none;" href="about.html">About us</a></li>
+                </ul>
+
+                <div class="menu"><img src="images/cont/menu.svg" alt=""></div>
+        </div>
+
+        <div class="ham">
+            <ul>
+              <li class="close"><img src="images/cont/close.svg" alt=""></li>
+              <li>
+                <a class="active" style="text-decoration: none; color: white;" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a style="text-decoration: none; color: white;"  href="service.html"
+                  >Sales & Services</a
+                >
+              </li>
+              <li>
+                <a style="text-decoration: none; color: white; " href="contact.html">Contact us</a>
+              </li>
+              <li>
+                <a style="text-decoration: none; color: white;" href="about.html">About us</a>
+              </li>
+            </ul>
+          </div>
+      
+    </header>
+     <div class="contactForm">
+         <form action="">
+            <h3>Contact details </h3>
+            <input type="text" id="name" placeholder="Full Name"><br>
+            <input type="text" id="phone" placeholder="Phone Number"><br>
+            <input type="text" id="add" placeholder="Address"><br>
+            
+            <input type="button" id="send" onclick="whatsapp()" value="Send Enquiry"><br>
+        </form>
+     </div>  
+
+     <footer>
+        <div class="foot">
+            <div class="box">
+                <a href="#" class="flogo"><img src="images/logo.png" alt=""></a>
+         
+                <div class="links">
+                    <a href="#" class="lin"><img src="images/fb.png" alt=""></a>
+                    <a href="#" class="lin"><img src="images/ig.png" alt=""></a>
+                    <a href="#" class="lin"><img src="images/cl.png" alt=""></a>
+                </div>
+            </div>
+    
+            <div class="vl"></div>
+            <div class="Pbr">
+                <h3 class="fline">Your One-Stop Solution for All Brands</h3>
+                <div class="brands">
+                    <div class="icons">
+                        <a href=""><img class="dkn" src="images/com/daikin.png" alt=""></a>
+                        <a href=""><img class="vts" src="images/com/voltas.png" alt=""></a>
+                        <a href=""><img class="vts" src="images/com/lloyd.png" alt=""></a>
+                        <a href=""><img class="inv vts" src="images/com/samsung.png" alt=""></a>
+                    </div>
+                    <div class="icons">
+                        <a href=""><img class="inv vts" src="images/com/hitachi.png" alt=""></a>
+                        <a href=""><img class="inv vts" src="images/com/wp.png" alt=""></a>
+                        <a href=""><img class="vts" src="images/com/haier.png" alt=""></a>
+                        <a href=""><img class="vts" src="images/com/lg.png" alt=""></a>
+                   </div>
+            </div>
+            </div>
+            
+        
+       </div>
+
+    </footer>
+
+     
+     <script>
+        function whatsapp(){
+            let name = document.getElementById("name").value;
+            let phoneNo = document.getElementById("phone").value;
+            let add = document.getElementById("add").value;
+
+            let whatsappURL = "https://wa.me/918210161541?text="
+            + "Name of Customer : " + name +"%0a"
+            + "Phone No. : " + phoneNo +"%0a"
+            + "Address. : " + add +"%0a";
+           
+
+            window.open(whatsappURL,"_blank").focus();
+
+        }
+     </script>
+
+<script src="script.js"></script>
+</body>
+</html>
