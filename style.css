@@ -109,7 +109,7 @@ a {
   outline: none;
   border-radius: 50px;
   font-size: 24px;
-  width: 22rem;
+  width: 25rem;
   cursor: pointer;
   color: white;
   position: relative;
@@ -509,13 +509,17 @@ footer {
   top: 10px;
 }
 
+.dig{
+  display: none;
+}
+
 .call {
 
   padding: 8px;
 
 
   font-size: 20px;
-  width: 18rem;
+  width: 15rem;
   cursor: pointer;
   color: white;
   position: relative;
@@ -561,11 +565,20 @@ header {
 
 .call {
   font-size: 18px;
-  width: 17rem;
+  width: 10rem;
+}
+
+.dig{
+  display: none;
 }
 
 .call img {
   width: 20px;
+  left: 20px;
+}
+
+.call a{
+  margin-right: 20px;
 }
 
 
