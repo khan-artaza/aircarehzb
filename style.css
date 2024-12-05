@@ -525,7 +525,7 @@ footer {
 
 }
 
-@media (max-width:380px){
+@media (max-width:405px){
   #navbar {
     height: 4rem;
 }
