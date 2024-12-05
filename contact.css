@@ -426,7 +426,7 @@ section .one p {
   
 }
 
-@media (max-width:380px){
+@media (max-width:405px){
   #navbar {
     height: 4rem;
 }
@@ -480,7 +480,7 @@ footer {
 }
 
 .vts, .dkn {
-  width: 64px;
+  width: 90px;
 }
 
 .foot {
@@ -493,19 +493,12 @@ footer {
 }
 
 .box {
-  margin-top: 31px;
+  margin-top: 15px;
+  margin-right: 15px;
 }
 
 .links {
   width: 11rem;
-}
-
-.links {
-  width: 11rem;
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  align-items: center;
   margin-top: 5px;
 }
 .flogo img {
@@ -527,6 +520,8 @@ footer {
   font-size: 25px;
   margin-left: 7px;
   margin-top: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .brands {
