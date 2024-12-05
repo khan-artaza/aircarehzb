@@ -1,13 +1,10 @@
-let ham = document.querySelector(".ham");
-let menu = document.querySelector(".menu");
-let close = document.querySelector(".close");
+let mobile = document.getElementById("mobile")
+let close = document.getElementById("close")
+let hamb = document.getElementById("hamb")
 
-menu.addEventListener("click", ()=>{
-
-    ham.style.right="0px"
-
+mobile.addEventListener("click",()=>{
+    hamb.style.right="-70px"
 })
-
 close.addEventListener("click", ()=>{
-     ham.style.right= "-500px"
+    hamb.style.right="-2000px"
 })

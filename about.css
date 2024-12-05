@@ -220,4 +220,220 @@ footer {
   
   }
 
+  #close{
+    display: none;
+  }
+
+  @media (max-width: 799px){
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* Prevent horizontal scroll */
+  }
+  
+  /*navbar start*/
+  
+  #header, #navbar{
+    overflow-x: hidden;
+  }
+  
+    #close{
+      display: block;
+    }
+    #navbar ul {
+      display: flex;
+      height: 100vh;
+      top: 0;
+      position: absolute;
+      width: 40vw;
+      background-color: #023b66;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: flex-start;
+      box-shadow: 0 40 60 rgba(0, 0, 0, 0.1);
+      padding: 80px 0 0 10px;
+      gap: 45px;
+      transition: 0.3s;
+      right: -500px;
+      z-index: 999;
+  
+      overflow-x: hidden;
+  
+    }
+  
+    #mobile{
+      position: absolute;
+      top: 30px;
+      right: 80px;
+  
+    }
+  
+    #logo {
+      width: 8rem;
+      margin-top: 4px;
+      margin-left: 4px;
+  }
+  /*navbar ends*/
+  
+  /*footer start*/
+  footer {
+    height: 45vh;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  
+  .vl{
+    display: none;
+  }
+  
+  .flogo img {
+    width: 15rem;
+  }
+  
+  .foot {
+    flex-direction: column;
+  overflow-x: hidden;
+    height: 100%;
+  }
+  
+  .brands {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    overflow-x: hidden;
+  
+  }
+  
+  .Pbr {
+  display: flex;
+  overflow-x: hidden;
+    width: 716px;
+    height: 45%;
+    margin-right: 30px;
+  
+  }
+  
+  .fline {
+   margin-left: 20px;
+  }
+  
+  .icons {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 0;
+  }
+  
+  .vts, .dkn {
+    width: 8rem;
+  }
+  /*footer end*/
+  
+
+
+.vid video{
+  width: fit-content;
+}
+  
+}
  
+
+@media (max-width:477px){
+  #mobile {
+    right: 40px;
+}
+
+
+/*footer start 477px*/
+
+footer {
+  height: 70vh;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+.flogo img {
+  width: 11rem;
+}
+
+.links {
+  width: 11rem;
+ 
+}
+
+.fline {
+  font-size: 35px;
+}
+
+.Pbr {
+  width:90vw;
+  height: 60%;
+}
+
+.icons {
+  gap: 2rem;
+}
+
+.brands {
+  gap:40px;
+}
+
+#navbar ul {
+  display: flex;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  width: 60vw;
+  background-color: #023b66;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 0 40 60 rgba(0, 0, 0, 0.1);
+  padding: 80px 0 0 10px;
+  gap: 45px;
+  transition: 0.3s;
+  right: -500px;
+  z-index: 999;
+  overflow-x: hidden;
+}
+
+/*footer ends*/
+
+.heading {
+  font-size: 40px;
+}
+
+.first {
+  flex-direction: column;
+  padding: 5px 50px;
+}
+
+.pic {
+  width: 14rem;
+
+}
+
+.vid {
+  flex-direction: column;
+  gap: 25px;
+}
+.vid video{
+  border: 1px solid #8cbdea;
+  width: 363px;
+  background-color: #d9e5f0;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.243);
+}
+
+}
